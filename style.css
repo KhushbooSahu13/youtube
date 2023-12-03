@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100vw;
+    height: max-content;
+    background-color: #FDF8F5;
+    
+
+}
+#main nav{
+    width: 100vw;
+    height: 13vh;
+    background-color: #FDF8F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#main #nav-part1{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: Acta,Georgia,sans-serif;
+    font-style: italic;
+    font-size: .875rem;
+    font-weight: 100;
+    /* padding: 0 0 0 15px; */
+}
+#main #nav-part3{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: Acta,Georgia,sans-serif;
+    font-style: italic;
+    font-size: .875rem;
+    font-weight: 100;
+    /* font-family: Messinasans book,sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+#nav-part3 i{
+    display: none;
+}
+#main #nav-part2 img{
+width: 15vw;
+height: 10vh;
+margin-right: 5vw;
+
+}
+#text{
+    margin-top: 2vh;
+    padding-top: 10px;
+    text-align: center;
+    font-family: Messinasans book,sans-serif; 
+    letter-spacing: 2px;
+}
+#center{
+    margin-top: 5%;
+    text-align: center;
+    
+}
+#center h1{
+    font-weight: 200;
+    font-size: 3.9rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+#center h2{
+     font-size: 3.9rem;
+     font-weight: 200;
+     color: #B44D1F;
+     font-style: italic;
+}
+#para{
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 33%;
+    width: 450px;
+}
+#main img{
+    width: 90vw;
+    margin-left: 70px ;
+    margin-top: 20px;
+    
+}
+#part2{
+    width: 100vw;
+    height: max-content;
+    background-color: #FDF8F5;
+    margin-top: 8%;
+}
+#first{
+    display: flex;
+    align-items:center ;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+#first img{
+    width: 40vw;
+    height: 45vh;
+
+}
+#first h1{
+    margin-bottom: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+#first h4{
+     color: rgba(0, 0, 0, 0.486);
+     font-size: 15px;
+     
+}
+#first h5{
+    margin-top: 8%;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: cursive;
+}
+#part3{
+    width: 100vw;
+    height: 100vh;
+    background-color: #EDE8E3;
+    margin-top: 4%;
+}
+#part3 img{
+    width: 200px;
+    height: 80px;
+    margin-top: 8%;
+    margin-left: 40%;
+}
+#end{
+    width: 300px;
+    margin-top: 4%;
+    
+}
+#end h6{
+    font-weight: 200;
+    font-size: 30px;
+}
+#end p{
+    font-size: 14px;
+    margin-top: 4%;
+}
+#end input{
+    padding: 1% 4%;
+    font-style: italic;
+    margin-top: 4%;
+    width: 260px;
+    height: 35px;
+}
+
+#end #new input {
+    width: 15px;
+    font-size: 11px ;
+}
+#end-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#end-part p{
+ font-size: 14px;
+ color: rgba(0, 0, 0, 0.473);
+}
+#end-part h3{
+    font-size: 14px;
+    font-weight: 200;
+    font-style: italic;
+}
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgba(0, 0, 0, 0.432);
+    font-size: 13px;
+}
+#finish{
+    display: flex;
+    gap: 15px;
+
+}
+@media (max-width:400px) {
+    #nav-part1 h5{
+           display: none;
+    }
+   
+    #nav-part2 img{
+        width: 30vw;
+        height: 20vh;
+    }
+    #nav-part3 h5{
+        display: none;
+    }
+    #nav-part3 i{
+        display: block;
+        font-size: 6vw;
+       
+    }
+    #center{
+        /* margin-top: 5%; */
+        text-align: center;
+        
+    }
+    #center h1{
+        font-size: 10vw;
+    }
+    #center h2{
+        font-size: 10vw;
+    }
+    #para p{
+        text-align: center;
+        margin-left: -12%;
+        width: 235px;
+
+    }
+    #main img{
+        margin-left: -2vw;
+        height: 50vh;
+    }
+    #first{
+        flex-direction: column;
+        margin-left: -14%;
+    }
+    #first img{
+        width: 70vw;
+        height: 30vh;
+    
+    }
+    #first #reverse{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    #part3
+    {    
+        height: fit-content;
+        margin-left: -3%;
+        text-align: center;
+    }
+    #part3 h3{
+        margin-top: 4vh;
+    }
+    #part3 img{
+        margin-left: -3%;
+        width: 20vw;
+        height: 20vh;
+    }
+
+    #end-part{
+        flex-direction: column-reverse;
+    }
+   
+
+
+}
